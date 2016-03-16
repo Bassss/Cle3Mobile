@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    z-index: -2;
+    background-image: url("http://g02.a.alicdn.com/kf/HTB1tyJsJXXXXXc_XVXXq6xXFXXXq/10x10FT-Indoor-font-b-Dark-b-font-font-b-Slate-b-font-Gray-Concrete-Wall-Distressed.jpg");
+    font-family: Open Sans, sans-serif;;
+}
+
+
+.drag-down {
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.fa {
+    color: #eeeeee;
+ }
+
+.arrow-up {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 2;
+    background: transparent;
+    bottom: 78px;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 3%;
+    height: 100%;
+    border-left: groove darkseagreen;
+    border-left-width: 10px;
+    border-right: groove darkseagreen;
+    border-right-width: 10px ;
+    position: absolute;
+    background-color: #eeeeee;
+
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    padding: 15px 0;
+    text-decoration: none;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
