@@ -32,3 +32,16 @@
     color: forestgreen;
 }
 
+#img {
+   display: inline-block;
+    width: 25%;
+}
+
+#link {
+    display: inline-block;
+}
+
+#or {
+    text-align: center;
+    line-height: 8;
+}

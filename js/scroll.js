@@ -6,7 +6,7 @@ $(function() {
     });
 
     $(".up").click(function() {
-        $('html,body').animate({
+            $('html,body').animate({
                 scrollTop: $("body").offset().top},
             'slow');
     });

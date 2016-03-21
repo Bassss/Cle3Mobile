@@ -6,6 +6,10 @@ html, body {
     margin: 0;
 }
 
+#content {
+    height: 100%;
+}
+
 
 .drag-down {
     background-color: darkslategray;
@@ -25,7 +29,6 @@ section {
     border-left-width: 8px;
     border-right: solid black;
     border-right-width: 8px ;
-    /*position: absolute;*/
     background-color: #eeeeee;
 }
 
