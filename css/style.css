@@ -1,12 +1,9 @@
-* {
+html, body {
+    background: url("../images/background.jpg") fixed;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
     padding: 0;
     margin: 0;
-}
-
-body {
-    z-index: -2;
-    background-image: url("http://g02.a.alicdn.com/kf/HTB1tyJsJXXXXXc_XVXXq6xXFXXXq/10x10FT-Indoor-font-b-Dark-b-font-font-b-Slate-b-font-Gray-Concrete-Wall-Distressed.jpg");
-    font-family: Open Sans, sans-serif;;
 }
 
 
@@ -15,35 +12,21 @@ body {
     text-align: center;
 }
 
-.fa {
-    color: #eeeeee;
- }
-
-.arrow-up {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    z-index: 2;
-    background: transparent;
-    bottom: 78px;
-    left: 0;
-    right: 0;
-    position: absolute;
-
+section {
+    height: 100%;
 }
-
-.content {
+.cd-section {
+    position: relative;
     margin-left: 15%;
     margin-right: 15%;
     padding: 3%;
     height: 100%;
-    border-left: groove darkseagreen;
-    border-left-width: 10px;
-    border-right: groove darkseagreen;
-    border-right-width: 10px ;
-    position: absolute;
+    border-left: solid black;
+    border-left-width: 8px;
+    border-right: solid black;
+    border-right-width: 8px ;
+    /*position: absolute;*/
     background-color: #eeeeee;
-
 }
 
 .nav li {
@@ -72,6 +55,10 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0;
     right: 0;
+}
+
+button {
+    border: none;
+    background-color: transparent;
 }

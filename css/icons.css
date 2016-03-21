@@ -1,0 +1,34 @@
+.arrow-down, .arrow-up {
+    text-align: center;
+    width: 50%;
+    height: 12%;
+    margin: 0 auto;
+    z-index: 2;
+    background: transparent;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+.fa {
+    color: #eeeeee;
+}
+
+#camera::before {
+    color: #f06a59;
+}
+
+#text {
+    color: cadetblue;
+}
+
+#quote {
+    color: #fcb052;
+}
+
+#music {
+    color: forestgreen;
+}
+
