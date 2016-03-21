@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/icons.css">
     <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
     <script src="plugins/js/modernizr.js"></script>
+    <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body data-hijacking="on" data-animation="rotate">

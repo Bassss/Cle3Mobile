@@ -1,0 +1,42 @@
+<section>
+    <script>
+        tinymce.init({
+            selector: '#textarea'
+        });
+    </script>
+    <script type="text/javascript">
+        tinymce.init({
+            selector: '#myTextarea',
+            theme: 'modern',
+            width: 600,
+            height: 300,
+            plugins: [
+                'advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker',
+                'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+                'save table contextmenu directionality emoticons template paste textcolor'
+            ],
+            content_css: 'css/content.css',
+            toolbar: 'undo redo | bold italic | bullist numlist | link image | media fullpage | forecolor backcolor emoticons'
+        });
+    </script>
+    <div id="exp" class="cd-section">
+        <div class="page-nav">
+            <a href="home"><img class="left" src="images/arrow-left.png"></a>
+            <a href="confirm"><img class="right" src="images/arrow-right.png"></a>
+        </div>
+
+        <br>
+        <h2 class="margin">Text</h2>
+
+        <form method="post">
+            <label for="textarea"></label>
+            <textarea id="textarea"></textarea>
+        </form>
+
+
+
+    </div>
+</section>
+
+<script src="js/load.js"></script>
+<script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
