@@ -11,7 +11,6 @@
                 'directionality emoticons paste textcolor'
             ],
             menubar: false,
-            content_css: 'css/content.css',
             toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
         });
     </script>
@@ -24,8 +23,9 @@
         </div>
 
         <h2 class="margin">Text</h2>
-        <label for="text"></label>
-        <textarea id="text" class="myTextarea"></textarea>
+
+        <textarea  class="myTextarea"></textarea>
+
     </div>
 </section>
 <script src="js/load.js"></script>
