@@ -9,22 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/icons.css">
     <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
     <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
-    <script type="text/javascript">
-        tinymce.init({
-            selector: '#myTextarea',
-            theme: 'modern',
-            width: 255,
-            height: 245,
-            plugins: [
-                'advlist autolink link lists charmap hr spellchecker',
-                'wordcount fullscreen insertdatetime',
-                'directionality emoticons paste textcolor'
-            ],
-            menubar: false,
-            content_css: 'css/content.css',
-            toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
-        });
-    </script>
 </head>
 <body data-hijacking="on" data-animation="rotate">
 
