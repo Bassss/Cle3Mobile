@@ -30,5 +30,3 @@
 
     </div>
 </section>
-
-<script src="js/scroll.js"></script>

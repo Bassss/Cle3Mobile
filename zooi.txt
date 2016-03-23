@@ -1,20 +1,25 @@
-<script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+<head>
+    <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
     <script type="text/javascript">
+    $( window ).load(function() {
         tinymce.init({
             selector: '#myTextarea',
             theme: 'modern',
-            width: 255,
+            width: 230,
             height: 245,
             plugins: [
                 'advlist autolink link lists charmap hr spellchecker',
                 'wordcount fullscreen insertdatetime',
                 'directionality emoticons paste textcolor'
             ],
-            menubar: false,
             content_css: 'css/content.css',
+            menubar: false,
             toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
         });
-    </script>
+    });
+
+</script>
+</head>
 
 <section>
     <div id="exp" class="cd-section">
@@ -24,8 +29,8 @@
         </div>
 
         <h2 class="margin">Text</h2>
-        <label for="myTextarea"></label>
-        <textarea id="myTextarea"></textarea>
+<label for="myTextarea"></label>
+<textarea id="myTextarea"></textarea>
     </div>
 </section>
 <script src="js/load.js"></script>

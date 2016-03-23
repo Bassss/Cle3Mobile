@@ -16,6 +16,5 @@
 
     </div>
 </section>
-
 <script src="js/file-upload.js"></script>
 <script src="js/load.js"></script>
