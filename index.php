@@ -10,6 +10,23 @@
     <script src="plugins/js/modernizr.js"></script>
     <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+    <script type="text/javascript">
+        tinymce.init({
+            selector: '#myTextarea',
+            theme: 'modern',
+            width: 100,
+            height: 400,
+            plugins: [
+                'advlist autolink link lists charmap hr spellchecker',
+                'wordcount fullscreen insertdatetime',
+                'directionality emoticons paste textcolor'
+            ],
+            content_css: 'css/content.css',
+            menubar: false,
+            toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
+        });
+    </script>
 </head>
 <body data-hijacking="on" data-animation="rotate">
 

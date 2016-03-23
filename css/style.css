@@ -68,7 +68,7 @@ section {
     position: fixed;
     background-color: darkslategray;
     left: 0;
-    height: 6%;
+    height: 8%;
 }
 
 button {
@@ -91,4 +91,16 @@ button {
 #description {
     width: 100%;
     height: 80px;
+}
+
+#quoteInput {
+    width: 97%;
+    height: 20%;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#source {
+    width: 97%;
+    font-family: 'Montserrat', sans-serif;
 }
