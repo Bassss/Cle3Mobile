@@ -1,7 +1,7 @@
 <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
     <script type="text/javascript">
         tinymce.init({
-            selector: '#myTextarea',
+            selector: '.myTextarea',
             theme: 'modern',
             width: 255,
             height: 245,
@@ -24,8 +24,8 @@
         </div>
 
         <h2 class="margin">Text</h2>
-        <label for="myTextarea"></label>
-        <textarea id="myTextarea"></textarea>
+        <label for="text"></label>
+        <textarea id="text" class="myTextarea"></textarea>
     </div>
 </section>
 <script src="js/load.js"></script>
