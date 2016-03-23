@@ -31,7 +31,7 @@
 <body data-hijacking="on" data-animation="rotate">
 
 <div id="content">
-<?php include("home.html"); ?>
+<?php include("home.php"); ?>
 </div>
 
 <div class="nav">
