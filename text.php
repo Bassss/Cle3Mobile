@@ -1,7 +1,7 @@
 <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
     <script type="text/javascript">
         tinymce.init({
-            selector: '#myTextarea',
+            selector: '.myTextarea',
             theme: 'modern',
             width: 255,
             height: 245,
@@ -11,7 +11,6 @@
                 'directionality emoticons paste textcolor'
             ],
             menubar: false,
-            content_css: 'css/content.css',
             toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
         });
     </script>
@@ -25,7 +24,7 @@
 
         <h2 class="margin">Text</h2>
         <label for="myTextarea"></label>
-        <textarea id="myTextarea"></textarea>
+        <textarea class="myTextarea"></textarea>
     </div>
 </section>
 <script src="js/load.js"></script>
