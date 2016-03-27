@@ -5,12 +5,14 @@ $(document).ready(function() {
     //Menu click handler
     $('.nav ul li a').click(function(e) {
         var page = $(this).attr('href');
+        $("#content").html("");
         $('#content').load(page + '.php');
         return false;
     });
 
     $('.page-nav a').click(function() {
         var page = $(this).attr('href');
+        $("#content").html("");
         $('#content').load(page + '.php');
         return false;
     });

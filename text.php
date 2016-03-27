@@ -1,9 +1,11 @@
 <script type="text/javascript" src='//cdn.tinymce.com/4/tinymce.min.js'></script>
-    <script type="text/javascript">
+<script type="text/javascript">
+
+    $(document).ready(function() {
         tinymce.init({
             selector: '.myTextarea',
             theme: 'modern',
-            width: 255,
+            width: '100%',
             height: 245,
             plugins: [
                 'advlist autolink link lists charmap hr spellchecker',
@@ -13,7 +15,9 @@
             menubar: false,
             toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
         });
-    </script>
+    });
+</script>
+
 
 <section>
     <div id="exp" class="cd-section">
