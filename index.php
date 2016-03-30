@@ -14,8 +14,6 @@
 </head>
 <body>
 
-
-
     <div id="content">
         <?php include("home.php"); ?>
     </div>
@@ -23,8 +21,8 @@
     <div class="nav">
         <ul>
             <li><a href="camera"><i id="camera" class="fa fa-camera fa-3x"></i></a></li>
-            <li><a href="text"><i id="text" class="fa fa-file-text fa-3x"></i></a></li>
-            <li><a href="quote"><i id="quote" class="fa fa-comment fa-3x"></i></a></li>
+            <li><a href="text"><i id="text" class="fa fa fa-comment fa-3x"></i></a></li>
+            <li><a href="quote"><i id="quote" class="fa fa-quote-right fa-3x"></i></a></li>
             <li><a href="music"><i id="music" class="fa fa-music fa-3x"></i></a></li>
         </ul>
     </div>
