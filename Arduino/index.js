@@ -27,6 +27,19 @@ five.Board().on('ready', function() {
   led.color({red: r, blue: b, green: g});
 });
 
+// Initialize the RGB LED2
+led = new five.Led.RGB({
+  pins: {
+    red: 11,
+    green: 10,
+    blue: 9
+  }
+});
+
+// Turn it on and set the initial color
+led.on();
+led.color({red: r, blue: b, green: g});
+});
 var pubnub = require('pubnub').init({
   subscribe_key: 'sub-c-74c85f44-f100-11e5-8112-02ee2ddab7fe',
   publish_key:   'pub-c-6ec1bade-3025-42e6-b4f7-a953fee47d4c'
