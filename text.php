@@ -7,13 +7,10 @@
             theme: 'modern',
             width: '100%',
             height: 245,
-            plugins: [
-                'advlist autolink link lists charmap hr spellchecker',
-                'wordcount fullscreen insertdatetime',
-                'directionality emoticons paste textcolor'
+            plugins: ['emoticons textcolor'
             ],
             menubar: false,
-            toolbar: 'undo redo | bold italic | bullist numlist | forecolor backcolor emoticons'
+            toolbar: 'bold italic | forecolor backcolor emoticons'
         });
     });
 </script>
@@ -32,4 +29,4 @@
 
     </div>
 </section>
-<script src="js/load.js"></script>
+<script src="js/load.js"></script>x

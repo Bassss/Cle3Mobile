@@ -12,7 +12,8 @@
     <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
 
 </head>
-<body data-hijacking="on" data-animation="rotate">
+<body>
+
 
 
     <div id="content">
@@ -30,12 +31,8 @@
 
 
     <!-- Scripts -->
-    <script src="plugins/js/jquery-2.1.4.js"></script>
-    <script src="plugins/js/modernizr.js"></script>
+    <script src="plugins/jquery/jquery-1.12.2.min.js"></script>
     <script src="js/load.js"></script>
-    <script src="plugins/js/velocity.min.js"></script>
-    <script src="plugins/js/velocity.ui.min.js"></script>
-    <script src="plugins/js/main.js"></script>
     <script src="js/scroll.js"></script>
    </body>
 </html>
