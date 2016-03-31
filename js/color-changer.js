@@ -13,4 +13,4 @@ function changeColor(){
 
     $color.css('background', 'rgb(' + red + ',' + green + ',' + blue + ')');
 
-    }
+}
