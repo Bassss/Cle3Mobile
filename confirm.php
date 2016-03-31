@@ -6,7 +6,7 @@
         <br>
         <section>
         <h2 class="margin">Bevestig</h2>
-<form method="post" action="sent.php">
+<form method="post">
         <br><div class="chair"><label for="number">Poef nummer</label>
         <select name="number" id="number">
             <option value="" selected>-</option>
@@ -14,8 +14,6 @@
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
         </select>
         <br><br>
         <label for="color">Kies je kleur:</label><br>
@@ -47,12 +45,14 @@
             </div>
             <br>
 
-        <input type="submit" name="send" value="Upload!">
+        <input type="button" id="pubload" value="Upload!" onclick="pubLoad();">
 
         </div>
 </form>
 
     </section>
 
-<script src="js/load.js"></script>
-<script src="js/color-changer.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/color-changer.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.7.15.min.js"></script>
+    <script src="js/pubload.js"></script>
