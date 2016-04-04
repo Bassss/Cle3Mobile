@@ -1,6 +1,6 @@
 <div id="exp" class="cd-section">
         <div class="page-nav">
-            <a href="home"><img class="left" src="images/arrow-left.png"></a>
+            <a href="#" data-url="home"><img class="left" src="images/arrow-left.png"></a>
         </div>
 
         <br>

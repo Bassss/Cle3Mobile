@@ -2,10 +2,13 @@ html, body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
-    font-size: 4.8vw;
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+p, h2, h3 {
+    font-size: 4.8vw;
 }
 
 #content {

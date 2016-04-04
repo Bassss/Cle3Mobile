@@ -5,7 +5,7 @@
 <section>
 	<div class="cd-section">
 		<br>
-		<h3>test</h3>
+		<h3>DIT IS DE FAQ</h3>
 		<p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
 			vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.</p>
 
@@ -32,4 +32,5 @@
 	</div>
 </section>
 
+<script src="plugins/jquery/jquery-1.12.2.min.js"></script>
 <script src="js/load.js"></script>
