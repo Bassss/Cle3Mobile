@@ -4,7 +4,6 @@
 <section>
     <div class="cd-section">
         <br>
-        <img src="images/Shair.png" alt="" width="200px" height="100px">
         <h2>Laat wat achter!</h2>
         <p><br>
             Welkom op de website van Shair. Een project dat draait om het delen van
