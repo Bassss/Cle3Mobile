@@ -8,8 +8,10 @@
         <h2>Laat wat achter!</h2>
         <p><br>
             Welkom op de website van Shair. Een project dat draait om het delen van
-            verhalen, emoties, quotes en gedachten. Deel nu jou ervaringen met Rotterdam Centraal!
-            <br>
+            verhalen, emoties, quotes en gedachten. 
+            <br><br>
+            Deel nu jou ervaringen met Rotterdam Centraal!
+            <br><br>
             Klik op de pijl voor meer informatie.
 
         </p>
@@ -28,11 +30,13 @@
         <h3>Uitleg</h3>
         <p><br>
             Shair is een project dat is bedacht door vier ijverige studenten aan de Hogeschool Rotterdam.
+            <br><br>
             Tegenwoordig zitten veel mensen op social media en hebben minder contact met de buitenwereld.
+            <br><br>
             Steeds vaker wordt technologie verkozen boven gesprekken met vreemden.
             <br>
             <br>
-            Daarom <u>Shair</u>, om via technologie contact met de omgeving te stimuleren! Echter hebben wij wel
+            Daarom Shair, om via technologie contact met de omgeving te stimuleren! Echter hebben wij wel
             jou verhaal hier voor nodig. Deel dus nu jou verhaal, quote, foto, video of lied via het onderstaande
             navigatiemenu.
         </p>
