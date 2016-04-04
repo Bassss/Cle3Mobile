@@ -16,9 +16,9 @@
 
         </p>
 
-        <div class="arrow-down">
-            <button type="button" class="down"><img src= images/arrow-down.png></button>
-        </div>
+<!--        <div class="arrow-down">-->
+<!--            <button type="button" class="down"><img src= images/arrow-down.png></button>-->
+<!--        </div>-->
 
     </div>
 
