@@ -52,3 +52,5 @@
 
     </section>
 
+    <script src="js/color-changer.js"></script>
+    <script src="js/pubload.js"></script>
