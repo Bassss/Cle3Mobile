@@ -26,19 +26,11 @@
 		</div>
 
 		<div class="q">
-			2. Kan ik mijn bericht ongedaan maken?
+			3. Zit er een maximaal aantal tekens aan het bericht dat ik kan achterlaten?
 		</div>
 		<div class="a">
-			Nee. Het is helaas niet mogelijk om een bericht te verwijderen zodra deze verzonden is.
+			Ja, een bericht kan maximaal 150 tekens bevatten.
 		</div>
-
-		<div class="q">
-			1. Question
-		</div>
-		<div class="a">
-			Answer
-		</div>
-	</div>
 
 </section>
 
