@@ -6,8 +6,13 @@
         <br>
         <img src="images/Shair.png" alt="" width="200px" height="100px">
         <h2>Laat wat achter!</h2>
-        <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
-            vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.</p>
+        <p><br>
+            Welkom op de website van Shair. Een project dat draait om het delen van
+            verhalen, emoties, quotes en gedachten. Deel nu jou ervaringen met Rotterdam Centraal!
+            <br>
+            Klik op de pijl voor meer informatie.
+
+        </p>
 
         <div class="arrow-down">
             <button type="button" class="down"><img src= images/arrow-down.png></button>
@@ -21,9 +26,17 @@
     <div id="exp" class="cd-section">
         <br>
         <h3>Uitleg</h3>
-        <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
-            vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.</p>
-        <p>zie onse blabla <span data-url="FAQ" class="FAQ">klikhier</span></p>
+        <p><br>
+            Shair is een project dat is bedacht door vier ijverige studenten aan de Hogeschool Rotterdam.
+            Tegenwoordig zitten veel mensen op social media en hebben minder contact met de buitenwereld.
+            Steeds vaker wordt technologie verkozen boven gesprekken met vreemden.
+            <br>
+            <br>
+            Daarom <u>Shair</u>, om via technologie contact met de omgeving te stimuleren! Echter hebben wij wel
+            jou verhaal hier voor nodig. Deel dus nu jou verhaal, quote, foto, video of lied via het onderstaande
+            navigatiemenu.
+        </p>
+        <p>Voor meer informatie zie onze veelgestelde vragen door <span data-url="FAQ" class="FAQ">hier</span> te klikken.</p>
 
         <div class="arrow-down">
             <button type="button" class="up"><img src= images/arrow-up.png></button>
