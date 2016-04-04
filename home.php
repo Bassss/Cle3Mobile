@@ -41,7 +41,7 @@
         </p>
         <p>Voor meer informatie zie onze veelgestelde vragen door <span data-url="FAQ" class="FAQ">hier</span> te klikken.</p>
 
-        <div class="arrow-down">
+        <div class="arrow-up">
             <button type="button" class="up"><img src= images/arrow-up.png></button>
         </div>
 
