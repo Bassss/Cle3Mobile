@@ -1,8 +1,8 @@
 <section>
     <div id="exp" class="cd-section">
         <div class="page-nav">
-            <a href="home"><img class="left" src="images/arrow-left.png"></a>
-            <a href="confirm"><img class="right" src="images/arrow-right.png"></a>
+            <a href="#" data-url="home"><img class="left" src="images/arrow-left.png"></a>
+            <a href="#" data-url="confirm"><img class="right" src="images/arrow-right.png"></a>
         </div>
 
     </div>

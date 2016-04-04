@@ -1,8 +1,8 @@
 <section>
     <div id="exp" class="cd-section">
         <div class="page-nav">
-            <a href="home"><img class="left" src="images/arrow-left.png"></a>
-            <a href="upload"><img class="right" src="images/arrow-right.png"></a>
+            <a href="#" data-url="home"><img class="left" src="images/arrow-left.png"></a>
+            <a href="#" data-url="upload"><img class="right" src="images/arrow-right.png"></a>
         </div>
 
         <br>
@@ -17,4 +17,4 @@
     </div>
 </section>
 <script src="js/file-upload.js"></script>
-<script src="js/load.js"></script>
+<!--<script src="js/load.js"></script>-->

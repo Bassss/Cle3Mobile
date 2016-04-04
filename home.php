@@ -23,7 +23,7 @@
         <h3>Uitleg</h3>
         <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
             vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.</p>
-            <p>zie onse blabla <span data-href="FAQ" class="FAQ">klikhier</span></p>
+            <p>zie onse blabla <span data-url="FAQ" class="FAQ">klikhier</span></p>
 
         <div class="arrow-down">
             <button type="button" class="up"><img src= images/arrow-up.png></button>
@@ -31,3 +31,7 @@
 
     </div>
 </section>
+
+<!--<script src="plugins/jquery/jquery-1.12.2.min.js"></script>-->
+<!--<script src="js/load.js"></script>-->
+<!--<script src="js/scroll.js"></script>-->

@@ -9,7 +9,7 @@
         <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
             vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.<br>
 
-        <a href="home">Terug naar home</a> </p>
+        <a href="#" data-url="home">Terug naar home</a> </p>
 
     </div>
 </section>
