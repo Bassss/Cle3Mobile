@@ -1,9 +1,6 @@
 
 <div class="drag-down">
 
-<!-- Tijdelijk css voor localhost -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
 
 </div>
 
