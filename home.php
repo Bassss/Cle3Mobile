@@ -30,3 +30,5 @@
 
     </div>
 </section>
+
+<script src="js/load.js"></script>

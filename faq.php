@@ -1,4 +1,4 @@
-<section>
+<section xmlns="http://www.w3.org/1999/html">
     <div id="exp" class="cd-section">
         <div class="page-nav">
             <a href="camera"><img class="left" src="images/arrow-left.png"></a>

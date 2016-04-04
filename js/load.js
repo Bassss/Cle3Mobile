@@ -3,7 +3,7 @@ $(document).ready(function() {
     //$('#content').load('home.php');
 
     //Menu click handler
-    $('.nav ul li a').click(function(e) {
+    $('.nav ul li a').click(function() {
         var page = $(this).attr('href');
         $("#content").html("");
         $('#content').load(page + '.php');
@@ -16,4 +16,6 @@ $(document).ready(function() {
         $('#content').load(page + '.php');
         return false;
     });
+
+    console.log('HALLO?');
 });
