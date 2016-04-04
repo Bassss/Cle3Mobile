@@ -17,3 +17,5 @@
     </div>
 </section>
 
+<script src="plugins/jquery/jquery-1.12.2.min.js"></script>
+<script src="js/file-upload.js"></script>

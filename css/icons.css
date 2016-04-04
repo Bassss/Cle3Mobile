@@ -1,4 +1,4 @@
-.arrow-down, .arrow-up {
+.arrow-down {
     text-align: center;
     width: 50%;
     height: 12%;
@@ -9,6 +9,13 @@
     left: 0;
     right: 0;
     position: absolute;
+
+}
+
+.arrow-up {
+    margin-top: 20%;
+    text-align: center;
+
 
 }
 

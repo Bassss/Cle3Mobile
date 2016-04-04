@@ -4,9 +4,7 @@ $(document).ready(function(e) {
     //Menu click handler
     $('#content').on('click', 'a, .FAQ', clickHandler);
     $('.nav a').on('click', clickHandler);
-    $('#upload_link').on('click', clickHandler);
-
-
+   
     function clickHandler(e) {
         console.log(e);
         e.preventDefault();
@@ -25,14 +23,7 @@ $(document).ready(function(e) {
                     tinymce.init({ selector: '.myTextarea', theme: 'modern',width: '100%', height: 245,plugins: ['emoticons textcolor'],menubar: false,toolbar: 'bold italic | forecolor backcolor emoticons'});
                 }
 
-                // if(page == "camera") {
-                //     $(function(){
-                //         $("#upload_link").on('click', function(e){
-                //             e.preventDefault();
-                //             $("#upload:hidden").trigger('click');
-                //         });
-                //     });
-                // }
+                
             }
         });
     }

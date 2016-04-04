@@ -1,5 +1,9 @@
 <?php
 
+DEFINE("MESSAGE_TEXT",0);
+DEFINE("MESSAGE_QUOTE",1);
+
+
 function getMessageType($type)
 {
     switch ($type) {

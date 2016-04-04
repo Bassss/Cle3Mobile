@@ -4,7 +4,6 @@
 <section>
     <div class="cd-section">
         <br>
-        <img src="images/Shair.png" alt="" width="200px" height="100px">
         <h2>Laat wat achter!</h2>
         <p><br>
             Welkom op de website van Shair. Een project dat draait om het delen van
@@ -42,7 +41,7 @@
         </p>
         <p>Voor meer informatie zie onze veelgestelde vragen door <span data-url="FAQ" class="FAQ">hier</span> te klikken.</p>
 
-        <div class="arrow-down">
+        <div class="arrow-up">
             <button type="button" class="up"><img src= images/arrow-up.png></button>
         </div>
 
