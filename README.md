@@ -13,7 +13,7 @@ This GitHub contains the code for our project in **CMTCLE1 3 CLE Mobile Applicat
 * A fully working website that also has a feature to show the latest post when activated
   * Multiple-devices-friendly website
   * Familiar navigation menu 
-  * The website had mady user tests
+  * The website had many user tests
 * Landscape option for showing messages
 
 
