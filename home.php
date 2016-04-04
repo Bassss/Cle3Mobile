@@ -31,7 +31,3 @@
 
     </div>
 </section>
-
-<!--<script src="plugins/jquery/jquery-1.12.2.min.js"></script>-->
-<!--<script src="js/load.js"></script>-->
-<!--<script src="js/scroll.js"></script>-->

@@ -32,10 +32,12 @@
     <!-- Scripts -->
     <script src="plugins/jquery/jquery-1.12.2.min.js"></script>
 
-<!--    <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>-->
+    <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
 
     <script src="js/load.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/color-changer.js"></script>
+    <script src="js/file-upload.js"></script>
+    <script src="js/pubload.js"></script>
    </body>
 </html>

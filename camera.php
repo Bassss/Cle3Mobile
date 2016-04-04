@@ -12,9 +12,8 @@
             <div class="link"><a href="https://www.instagram.com/"> Log in met <br>instagram</a></div>
             <div id="or">Of</div>
             <div class="img"><img src="images/photo.png"></div>
-            <div class="link"><input id="upload" type="file"/><a href="" id="upload_link">Kies een foto...</a>​</div>
+            <div class="link"><input id="upload" type="file"/><a href="#" id="upload_link">Kies een foto...</a>​</div>
 
     </div>
 </section>
-<script src="js/file-upload.js"></script>
-<!--<script src="js/load.js"></script>-->
+
