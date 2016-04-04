@@ -1,10 +1,10 @@
 <div class="drag-down">
 
 </div>
-
 <section>
     <div class="cd-section">
         <br>
+        <img src="images/Shair.png" alt="" width="200px" height="100px">
         <h2>Laat wat achter!</h2>
         <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio est fugit harum laborum reiciendis
             vel! Ad adipisci aliquid, blanditiis dicta et incidunt maxime, nobis officiis quasi qui, suscipit unde.</p>

@@ -17,9 +17,7 @@ $(document).ready(function(e) {
         return false;
     });
 
-    $('.FAQ').click(function(e) {
-        console.log("clickd");
-        e.preventDefault();
+    $('.FAQ').click(function() {
         var page = $(this).data('href');
         $("#content").html("");
         $('#content').load(page + '.php');
