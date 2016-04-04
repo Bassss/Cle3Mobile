@@ -72,6 +72,15 @@ section {
     height: 45px;
 }
 
+.FAQ {
+    text-decoration: underline;
+
+}
+
+.FAQ:hover {
+    text-decoration: none;
+    cursor:pointer;
+}
 button {
     border: none;
     background-color: transparent;
