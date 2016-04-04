@@ -36,5 +36,6 @@
 
     <script src="js/load.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/color-changer.js"></script>
    </body>
 </html>
