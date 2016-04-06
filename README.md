@@ -14,6 +14,7 @@ This GitHub contains the code for our project in **CMTCLE1 3 CLE Mobile Applicat
   * Multiple-devices-friendly website
   * Familiar navigation menu 
   * The website had many user tests
+    * Including many tests on the iPhone 5+ series, Sony z3 and Samsung Galaxy 6+ series
 * Landscape option for showing messages
 
 
