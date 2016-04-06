@@ -11,124 +11,32 @@
 <body>
 	<header>
 
-
-		<div class="pubnub"></div>
 	</header>
-
-
-	<section class="preference">
-
-		<div>
-			<div class="caption red">Red</div>
-			<label for="red" class="brightness fa">
-				<input id="red" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-
-		<div>
-			<div class="caption green">Green</div>
-			<label for="green" class="brightness fa">
-				<input id="green" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-		
-		<div>
-			<div class="caption blue">Blue</div>
-			<label for="blue" class="brightness fa">
-				<input id="blue" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-
-	</section>
-	<section class="preference2">
-
-		<div>
-			<div class="caption red2">Red 2</div>
-			<label for="red2" class="brightness fa">
-				<input id="red2" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-
-		<div>
-			<div class="caption green2">Green 2</div>
-			<label for="green2" class="brightness fa">
-				<input id="green2" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-
-		<div>
-			<div class="caption blue2">Blue 2</div>
-			<label for="blue2" class="brightness fa">
-				<input id="blue2" type="range" min="1" max="255" step="1" value="0">
-			</label>
-		</div>
-
-	</section>
-
 	<script src="http://cdn.pubnub.com/pubnub-3.7.15.min.js"></script>
 	<script>
 (function(){
+	var pubnub = PUBNUB.init({
+		subscribe_key: 'sub-c-74c85f44-f100-11e5-8112-02ee2ddab7fe',
+		publish_key:   'pub-c-6ec1bade-3025-42e6-b4f7-a953fee47d4c'
+	});
+	var channel = 'Channel-zq7jdibrr';
 
-	var settings = {
+	var button;
 
-		channel: 'Channel-zq7jdibrr',
-		publish_key: 'pub-c-6ec1bade-3025-42e6-b4f7-a953fee47d4c',
-		subscribe_key: 'sub-c-74c85f44-f100-11e5-8112-02ee2ddab7fe'
-	};
+	pubnub.subscribe({
+		channel: channel,
+		callback: function (m) {
+			button = m.button;
+		console.log(button);
 
-	var pubnub = PUBNUB(settings);
 
-	var red = document.getElementById('red');
-	var green = document.getElementById('green');
-	var blue = document.getElementById('blue');
-
-	var red2 = document.getElementById('red2');
-	var green2 = document.getElementById('green2');
-	var blue2 = document.getElementById('blue2');
-
-	function publishUpdate(data) {
-		pubnub.publish({
-			channel: settings.channel,
-			message: data
-
-		});
-	}
-
-	function publishUpdate2(data) {
-		pubnub.publish({
-			channel: settings.channel,
-			message: data
-
-		});
-	}
-
-	// UI EVENTS
-
-	red.addEventListener('change', function(e){
-		publishUpdate({color: 'red', brightness: +this.value});
-	}, false);
-
-	green.addEventListener('change', function(e){
-		publishUpdate({color: 'green', brightness: +this.value});
-	}, false);
-
-	blue.addEventListener('change', function(e){
-		publishUpdate({color: 'blue', brightness: +this.value});
-	}, false);
-
-	red2.addEventListener('change', function(e){
-		publishUpdate2({color: 'red2', brightness: +this.value});
-	}, false);
-
-	green2.addEventListener('change', function(e){
-		publishUpdate2({color: 'green2', brightness: +this.value});
-	}, false);
-
-	blue2.addEventListener('change', function(e){
-		publishUpdate2({color: 'blue2', brightness: +this.value});
-	}, false);
+		},
+		error: function (err) {
+			console.log(err);
+		}
+	});
 })();
 	</script>
-	
+
 </body>
 </html>
