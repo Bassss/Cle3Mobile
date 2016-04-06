@@ -1,6 +1,6 @@
 <div id="exp" class="cd-section">
         <div class="page-nav">
-            <a href="#" data-url="home"><img class="left" src="images/arrow-left.png"></a>
+            <a href="#" data-url="back"><img class="left" src="images/arrow-left.png"></a>
         </div>
 
         <br>
@@ -45,12 +45,9 @@
             </div>
             <br>
 
-        <input type="button" id="pubload" value="Upload!" onclick="pubLoad();">
+        <input type="button" id="pubload" value="Upload!"">
 
         </div>
 </form>
 
     </section>
-
-    <script src="js/color-changer.js"></script>
-    <script src="js/pubload.js"></script>

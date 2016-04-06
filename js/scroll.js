@@ -1,12 +1,12 @@
 $(function() {
-    $(".down").click(function() {
+    $("#content").on('click', '.down', function() {
         $('html,body').animate({
                 scrollTop: $("#exp").offset().top},
             'slow');
     });
 
-    $(".up").click(function() {
-            $('html,body').animate({
+    $("#content").on('click', '.up', function() {
+        $('html,body').animate({
                 scrollTop: $("body").offset().top},
             'slow');
     });

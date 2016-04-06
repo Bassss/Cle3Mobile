@@ -1,8 +1,10 @@
 
 $(document).ready (function() {
-    document.getElementById("upload").onclick = pubLoad();
+    // document.getElementById("upload").onclick = pubLoad();
 
+    $("#content").on('click', '#pubload', pubLoad);
 });
+
 function pubLoad(){
     var settings = {
         channel: 'Channel-zq7jdibrr',
@@ -12,11 +14,14 @@ function pubLoad(){
 
     var pubnub = PUBNUB(settings);
 
+    console.log("loaded");
+
     var info = {};
-        info.red = $('#red').val();
+    info.red = $('#red').val();
         info.blue = $('#blue').val();
         info.green = $('#green').val();
         info.chair = $('#number').val();
+
 
     console.log(info);
 
@@ -25,7 +30,6 @@ function pubLoad(){
         message: info
 
     });
-
 
 }
 

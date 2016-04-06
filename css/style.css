@@ -29,7 +29,7 @@ section {
     margin-left: 15%;
     margin-right: 15%;
     padding: 3%;
-    height: 100%;
+    min-height: 100%;
     border-left: solid black;
     border-left-width: 8px;
     border-right: solid black;
@@ -149,6 +149,6 @@ button {
 }
 
 #exp {
-    padding-bottom: 150%;
+    /*padding-bottom: 150%;*/
 }
 

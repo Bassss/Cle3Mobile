@@ -1,15 +1,29 @@
 $(document).ready(function(e) {
     //Initial
 
+    var currentPage = "home";
+    var previousPage = "";
+
     //Menu click handler
     $('#content').on('click', 'a, .FAQ', clickHandler);
     $('.nav a').on('click', clickHandler);
    
     function clickHandler(e) {
-        console.log(e);
         e.preventDefault();
         var page = $(this).data('url');
-        navigate(page);
+
+        if(page == "back") {
+            navigate(previousPage);
+
+        } else {
+            navigate(page);
+        }
+        previousPage = currentPage;
+        currentPage = page;
+        console.log(" ");
+        console.log('previous ' + previousPage);
+        console.log('page ' + page);
+        console.log('current ' + currentPage);
     }
 
     function navigate(page) {

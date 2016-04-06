@@ -1,7 +1,9 @@
 $(document).ready (function()
 {
-    $('#red').add('#blue').add('#green')
-        .on('change', changeColor)
+    $('#content').on('change', '#red', changeColor);
+    $('#content').on('change', '#blue', changeColor);
+    $('#content').on('change', '#green', changeColor);
+
 });
 
 function changeColor(){

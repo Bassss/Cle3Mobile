@@ -32,6 +32,12 @@
 			Ja, een bericht kan maximaal 150 tekens bevatten.
 		</div>
 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
 </section>
 
 
